@@ -1,17 +1,20 @@
 import random
+from data import pokemon_list
 def to_str(word):
   blank=''
   return blank.join(word)
+
 def pokemon():
-  pokemon_random=random.choice(['balbasaur','pikachu','raichu','magikarp','nidoking','persian','ninetail','magnemite','weezing','koffing','ekans','scyther','magmar','kabuto','snorlax','zapdos','squirtle','chikorita','slowking','butterfree','charmander','charlizard','psyduck','pidgeot','sandlash','sandshrew','jigglypuff','venomoth','tentacruel','lapras','geodude','golem','poliwhirl'])
+  pokemon_random=random.choice(pokemon_list)
   word=pokemon_random.upper()
   main=[]
   valid_input=('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
   turn =10
-  
   wrong_guess=" "
+  
   for x in range (0,len(word)):
     main.append("_ ") 
+  
   while turn != 0:  
     print("                         "+to_str(main)) 
     print(f"\n**Wrong guess remaining: {turn}.\nWrong guesses:({wrong_guess})** ")

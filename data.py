@@ -1,0 +1,11 @@
+pokemon_list = ['balbasaur','pikachu','raichu',
+  'magikarp','nidoking','persian',
+  'ninetail','magnemite','weezing',
+  'koffing','ekans','scyther',
+  'magmar','kabuto','snorlax',
+  'zapdos','squirtle','chikorita',
+  'slowking','butterfree','charmander',
+  'charlizard','psyduck','pidgeot',
+  'sandlash','sandshrew','jigglypuff',
+  'venomoth','tentacruel',
+  'lapras','geodude','golem','poliwhirl']
